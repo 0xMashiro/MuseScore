@@ -125,41 +125,41 @@ Note: Google Test filter = Engraving_InstrumentChangeTests.*:Engraving_KeySigTes
 16:22:13.909 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:13.909 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
 16:22:13.978 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 4
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
 16:22:14.150 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:14.150 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
@@ -225,23 +225,23 @@ Google Test trace:
 16:22:14.185 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
 16:22:14.185 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:14.185 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
 16:22:14.269 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:14.269 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
@@ -308,41 +308,41 @@ Google Test trace:
 16:22:14.311 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:14.311 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
 16:22:14.391 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 4
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
 16:22:14.563 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:14.563 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
@@ -408,23 +408,23 @@ Google Test trace:
 16:22:14.600 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
 16:22:14.601 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:14.601 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <00>
   expectedKey
     Which is: 1-byte object <01>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
 [  FAILED  ] Engraving_InstrumentChangeTests.linkedPrecedingKeyChange (803 ms)
 [ RUN      ] Engraving_InstrumentChangeTests.linkedPrecedingKeyDeletion
@@ -493,41 +493,41 @@ Google Test trace:
 16:22:14.711 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:14.711 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
 16:22:14.784 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 5
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
 16:22:14.964 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:14.964 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
@@ -593,23 +593,23 @@ Google Test trace:
 16:22:15.001 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
 16:22:15.001 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:15.001 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: false
 
 16:22:15.089 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:15.090 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
@@ -676,41 +676,41 @@ Google Test trace:
 16:22:15.125 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:15.125 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
 16:22:15.201 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 5
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
 16:22:15.376 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:15.376 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
@@ -776,23 +776,23 @@ Google Test trace:
 16:22:15.420 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
 16:22:15.420 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
 16:22:15.420 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:175: Failure
 Expected equality of these values:
   event.concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:181: Failure
 Expected equality of these values:
   toKeySig(item)->keySigEvent().concertKey()
     Which is: 1-byte object <01>
   expectedKey
     Which is: 1-byte object <00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
+/workspace/MuseScore/src/engraving/tests/instrumentchange_tests.cpp:162: true
 
 [  FAILED  ] Engraving_InstrumentChangeTests.linkedPrecedingKeyDeletion (826 ms)
 [----------] 7 tests from Engraving_InstrumentChangeTests (2068 ms total)
