@@ -38,27 +38,27 @@ Note: Google Test filter = Engraving_TimesigTests.localMeterDeletionUndo
 [0m14:17:24.610 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 70[0m
 [0m14:17:24.779 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 68[0m
 [0m14:17:24.981 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 311[0m
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:657: Failure
+/workspace/MuseScore/src/engraving/tests/timesig_tests.cpp:657: Failure
 Expected equality of these values:
   score->staff(2)->timeStretch(tick)
     Which is: 16-byte object <07-00 00-00 00-00 00-00 08-00 00-00 00-00 00-00>
   Fraction(5, 4)
     Which is: 16-byte object <05-00 00-00 00-00 00-00 04-00 00-00 00-00 00-00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:633: false
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:632: false
+/workspace/MuseScore/src/engraving/tests/timesig_tests.cpp:633: false
+/workspace/MuseScore/src/engraving/tests/timesig_tests.cpp:632: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:663: Failure
+/workspace/MuseScore/src/engraving/tests/timesig_tests.cpp:663: Failure
 Expected equality of these values:
   score->staff(2)->timeStretch(tick)
     Which is: 16-byte object <07-00 00-00 00-00 00-00 08-00 00-00 00-00 00-00>
   expected
     Which is: 16-byte object <05-00 00-00 00-00 00-00 04-00 00-00 00-00 00-00>
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:633: false
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:632: false
+/workspace/MuseScore/src/engraving/tests/timesig_tests.cpp:633: false
+/workspace/MuseScore/src/engraving/tests/timesig_tests.cpp:632: false
 
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:666: Failure
+/workspace/MuseScore/src/engraving/tests/timesig_tests.cpp:666: Failure
 Value of: integrity
   Actual: false
 Expected: true
@@ -93,8 +93,8 @@ Expected: true
 <b>Incomplete measure</b>: Full score, measure 31, staff 3. Found: 10/7. Expected: 4/4.
 <b>Incomplete measure</b>: Full score, measure 32, staff 3. Found: 10/7. Expected: 4/4.
 Google Test trace:
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:633: false
-/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:632: false
+/workspace/MuseScore/src/engraving/tests/timesig_tests.cpp:633: false
+/workspace/MuseScore/src/engraving/tests/timesig_tests.cpp:632: false
 
 [  FAILED  ] Engraving_TimesigTests.localMeterDeletionUndo (1073 ms)
 [----------] 1 test from Engraving_TimesigTests (1073 ms total)

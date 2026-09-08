@@ -30,3 +30,5 @@ Filter: `--gtest_filter=Engraving_TimesigTests.*`.
 - The excerpt lookup itself restores correctly before the fix; the stale full-score map is the failing query from either deletion entry point.
 
 Logs: `final-before-test.log` and `fixed-test.log`. Code style and `git diff --check` pass. No claim is made that this is a previously unreported issue, or that unrelated local time signature problems are fixed.
+
+Published test logs normalize local checkout paths to `/workspace/MuseScore`; test results and diagnostics are unchanged.
