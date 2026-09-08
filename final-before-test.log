@@ -1,0 +1,152 @@
+QML debugging is enabled. Only use this in a safe environment.
+[1;32m14:17:22.831 | INFO  | main_thread     | GlobalModule::onPreInit | log path: /home/chai/.local/share/MuseScore/engraving_tests/logs/MuseScoreStudio_260908_141722.log[0m
+[1;32m14:17:22.831 | INFO  | main_thread     | GlobalModule::onPreInit | === Started stub 4.0.0, build: stub ===[0m
+[1;32m14:17:23.856 | INFO  | main_thread     | <lambda         | engraving tests suite post init[0m
+[0m14:17:24.080 | DEBUG | main_thread     | InstrumentTemplate::read | InstrumentTemplate:: init instrument <contrabass> not found[0m
+Note: Google Test filter = Engraving_TimesigTests.localMeterDeletionUndo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engraving_TimesigTests
+[ RUN      ] Engraving_TimesigTests.localMeterDeletionUndo
+[0m14:17:24.095 | DEBUG | main_thread     | XmlReader::unknown | byte offset 7202: stemLengthSmall[0m
+[0m14:17:24.100 | DEBUG | main_thread     | XmlReader::unknown | byte offset 31120: autoplaceVerticalAlignRange[0m
+[0m14:17:24.102 | DEBUG | main_thread     | XmlReader::unknown | byte offset 39174: preferSameStringForTranspose[0m
+[0m14:17:24.120 | DEBUG | main_thread     | XmlReader::unknown | tag in <timeSig-11.mscz> byte offset 3474: trackName[0m
+[0m14:17:24.121 | DEBUG | main_thread     | XmlReader::unknown | tag in <timeSig-11.mscz> byte offset 4160: trackName[0m
+[0m14:17:24.121 | DEBUG | main_thread     | XmlReader::unknown | tag in <timeSig-11.mscz> byte offset 4839: trackName[0m
+[0m14:17:24.122 | DEBUG | main_thread     | XmlReader::unknown | tag in <timeSig-11.mscz> byte offset 5673: trackName[0m
+[1;31m14:17:24.137 | ERROR | main_thread     | DefaultStyle::doLoadStyle | failed load style: :/engraving/styles/legacy-style-defaults-v450.mss[0m
+[0m14:17:24.139 | DEBUG | main_thread     | XmlReader::unknown | byte offset 7202: stemLengthSmall[0m
+[0m14:17:24.143 | DEBUG | main_thread     | XmlReader::unknown | byte offset 31120: autoplaceVerticalAlignRange[0m
+[0m14:17:24.145 | DEBUG | main_thread     | XmlReader::unknown | byte offset 39174: preferSameStringForTranspose[0m
+[0m14:17:24.161 | DEBUG | main_thread     | XmlReader::unknown | tag in <0_Flute> byte offset 856: trackName[0m
+[1;31m14:17:24.167 | ERROR | main_thread     | DefaultStyle::doLoadStyle | failed load style: :/engraving/styles/legacy-style-defaults-v450.mss[0m
+[0m14:17:24.169 | DEBUG | main_thread     | XmlReader::unknown | byte offset 7202: stemLengthSmall[0m
+[0m14:17:24.174 | DEBUG | main_thread     | XmlReader::unknown | byte offset 31120: autoplaceVerticalAlignRange[0m
+[0m14:17:24.175 | DEBUG | main_thread     | XmlReader::unknown | byte offset 39174: preferSameStringForTranspose[0m
+[0m14:17:24.192 | DEBUG | main_thread     | XmlReader::unknown | tag in <1_Oboe> byte offset 854: trackName[0m
+[1;31m14:17:24.199 | ERROR | main_thread     | DefaultStyle::doLoadStyle | failed load style: :/engraving/styles/legacy-style-defaults-v450.mss[0m
+[0m14:17:24.201 | DEBUG | main_thread     | XmlReader::unknown | byte offset 7202: stemLengthSmall[0m
+[0m14:17:24.206 | DEBUG | main_thread     | XmlReader::unknown | byte offset 31120: autoplaceVerticalAlignRange[0m
+[0m14:17:24.208 | DEBUG | main_thread     | XmlReader::unknown | byte offset 39174: preferSameStringForTranspose[0m
+[0m14:17:24.224 | DEBUG | main_thread     | XmlReader::unknown | tag in <2_Clarinet_in_Bb> byte offset 878: trackName[0m
+[1;31m14:17:24.232 | ERROR | main_thread     | DefaultStyle::doLoadStyle | failed load style: :/engraving/styles/legacy-style-defaults-v450.mss[0m
+[0m14:17:24.234 | DEBUG | main_thread     | XmlReader::unknown | byte offset 7202: stemLengthSmall[0m
+[0m14:17:24.238 | DEBUG | main_thread     | XmlReader::unknown | byte offset 31120: autoplaceVerticalAlignRange[0m
+[0m14:17:24.240 | DEBUG | main_thread     | XmlReader::unknown | byte offset 39174: preferSameStringForTranspose[0m
+[0m14:17:24.255 | DEBUG | main_thread     | XmlReader::unknown | tag in <3_Bassoon> byte offset 897: trackName[0m
+[0m14:17:24.610 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 70[0m
+[0m14:17:24.779 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 68[0m
+[0m14:17:24.981 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 311[0m
+/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:657: Failure
+Expected equality of these values:
+  score->staff(2)->timeStretch(tick)
+    Which is: 16-byte object <07-00 00-00 00-00 00-00 08-00 00-00 00-00 00-00>
+  Fraction(5, 4)
+    Which is: 16-byte object <05-00 00-00 00-00 00-00 04-00 00-00 00-00 00-00>
+Google Test trace:
+/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:633: false
+/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:632: false
+
+/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:663: Failure
+Expected equality of these values:
+  score->staff(2)->timeStretch(tick)
+    Which is: 16-byte object <07-00 00-00 00-00 00-00 08-00 00-00 00-00 00-00>
+  expected
+    Which is: 16-byte object <05-00 00-00 00-00 00-00 04-00 00-00 00-00 00-00>
+Google Test trace:
+/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:633: false
+/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:632: false
+
+/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:666: Failure
+Value of: integrity
+  Actual: false
+Expected: true
+<b>Incomplete measure</b>: Full score, measure 3, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 4, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 5, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 6, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 7, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 8, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 9, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 10, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 11, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 12, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 13, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 14, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 15, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 16, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 17, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 18, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 19, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 20, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 21, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 22, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 23, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 24, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 25, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 26, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 27, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 28, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 29, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 30, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 31, staff 3. Found: 10/7. Expected: 4/4.
+<b>Incomplete measure</b>: Full score, measure 32, staff 3. Found: 10/7. Expected: 4/4.
+Google Test trace:
+/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:633: false
+/home/chai/workspace/music/musescore-web/.cache/upstream-contributions/desktop-MuseScore/src/engraving/tests/timesig_tests.cpp:632: false
+
+[  FAILED  ] Engraving_TimesigTests.localMeterDeletionUndo (1073 ms)
+[----------] 1 test from Engraving_TimesigTests (1073 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1073 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Engraving_TimesigTests.localMeterDeletionUndo
+
+ 1 FAILED TEST
+[1;35m14:17:25.168 | INFO  | main_thread     | Profiler        | 
+
+Main thread. Top 150 by sum time (total count: 33)
+Function                                                    Call time         Call count        Sum time          
+Score::doLayoutRange                                        35.564 ms         25                889.102 ms        
+ScoreLayout::layoutRange                                    35.530 ms         25                888.250 ms        
+ScorePageViewLayout::layoutPageView                         35.524 ms         25                888.095 ms        
+SystemLayout::collectSystem                                 7.797 ms          104               810.885 ms        
+MasterScore::update                                         178.474 ms        4                 713.895 ms        
+PageLayout::collectPage                                     21.192 ms         29                614.563 ms        
+HorizontalSpacing::updateSpacingForLastAddedMeasure         0.134 ms          1575              210.313 ms        
+Score::doLayout                                             35.203 ms         5                 176.017 ms        
+MscLoader::loadMscz                                         166.258 ms        1                 166.258 ms        
+MStyle::read                                                12.131 ms         9                 109.181 ms        
+HorizontalSpacing::computeSpacingForFullSystem              1.161 ms          79                91.687 ms         
+SystemLayout::layoutSystemElements                          0.713 ms          79                56.332 ms         
+TextLayout::layoutBaseTextBase1                             0.194 ms          210               40.828 ms         
+BeamLayout::createBeams                                     0.036 ms          800               28.989 ms         
+ChordLayout::layoutChords1                                  0.018 ms          1280              23.245 ms         
+MaskLayout::computeMasks                                    0.359 ms          29                10.403 ms         
+MaskLayout::maskBarlineForText                              0.013 ms          523               6.550 ms          
+SystemLayout::layout2                                       0.067 ms          79                5.284 ms          
+XmlStreamReader::setData                                    0.246 ms          15                3.694 ms          
+PageLayout::layoutPage                                      0.113 ms          29                3.289 ms          
+SystemLayout::restoreLayout2                                0.032 ms          79                2.534 ms          
+SystemLayout::minDistance                                   0.017 ms          104               1.819 ms          
+MeasureLayout::getNextMeasure                               0.002 ms          825               1.699 ms          
+MaskLayout::collectAllSystemText                            0.021 ms          79                1.686 ms          
+Score::sanityCheckLocal                                     0.317 ms          5                 1.587 ms          
+Score::updateTicksAndTimeSigMap                             0.033 ms          28                0.924 ms          
+RepeatList::unwind                                          0.023 ms          21                0.475 ms          
+Excerpt::updateTracksMapping                                0.014 ms          10                0.136 ms          
+engraving::markInstrumentsAsPrimary                         0.009 ms          8                 0.076 ms          
+SpannerMap::update                                          0.012 ms          5                 0.058 ms          
+CompatUtils::doCompatibilityConversions                     0.028 ms          1                 0.028 ms          
+ScoreAutomationController::insertTime                       0.000 ms          4                 0.001 ms          
+AutomationRW::read                                          0.000 ms          1                 0.000 ms          
+
+
+Other threads. Top 150 by sum time (total count: 0)
+Function                                                    Call time         Call count        Sum time          
+
+
+[0m
