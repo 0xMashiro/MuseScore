@@ -1,0 +1,681 @@
+QML debugging is enabled. Only use this in a safe environment.
+16:23:35.874 | INFO  | main_thread     | GlobalModule::onPreInit | log path: /home/chai/.local/share/MuseScore/engraving_tests/logs/MuseScoreStudio_260908_162335.log
+16:23:35.874 | INFO  | main_thread     | GlobalModule::onPreInit | === Started stub 4.0.0, build: stub ===
+16:23:36.829 | INFO  | main_thread     | <lambda         | engraving tests suite post init
+16:23:37.031 | DEBUG | main_thread     | InstrumentTemplate::read | InstrumentTemplate:: init instrument <contrabass> not found
+Note: Google Test filter = Engraving_InstrumentChangeTests.*:Engraving_KeySigTests.*
+[==========] Running 12 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from Engraving_InstrumentChangeTests
+[ RUN      ] Engraving_InstrumentChangeTests.testAdd
+16:23:37.043 | DEBUG | main_thread     | XmlReader::unknown | byte offset 4330: timesigScale
+16:23:37.063 | DEBUG | main_thread     | XmlReader::unknown | tag in <add.mscx> byte offset 887: trackName
+16:23:37.064 | DEBUG | main_thread     | XmlReader::unknown | tag in <add.mscx> byte offset 1953: trackName
+16:23:37.095 | DEBUG | main_thread     | Score::getProperty | Score::getProperty: unhandled id
+16:23:37.117 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 1
+[       OK ] Engraving_InstrumentChangeTests.testAdd (91 ms)
+[ RUN      ] Engraving_InstrumentChangeTests.testDelete
+16:23:37.138 | DEBUG | main_thread     | XmlReader::unknown | tag in <delete.mscx> byte offset 887: trackName
+16:23:37.140 | DEBUG | main_thread     | XmlReader::unknown | tag in <delete.mscx> byte offset 1953: trackName
+16:23:37.168 | WARN  | main_thread     | Score::undo     | called outside of transaction
+[       OK ] Engraving_InstrumentChangeTests.testDelete (70 ms)
+[ RUN      ] Engraving_InstrumentChangeTests.testChange
+16:23:37.208 | DEBUG | main_thread     | XmlReader::unknown | tag in <change.mscx> byte offset 887: trackName
+16:23:37.209 | DEBUG | main_thread     | XmlReader::unknown | tag in <change.mscx> byte offset 1953: trackName
+16:23:37.258 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 1
+[       OK ] Engraving_InstrumentChangeTests.testChange (91 ms)
+[ RUN      ] Engraving_InstrumentChangeTests.testMixer
+16:23:37.301 | DEBUG | main_thread     | XmlReader::unknown | tag in <mixer.mscx> byte offset 887: trackName
+16:23:37.303 | DEBUG | main_thread     | XmlReader::unknown | tag in <mixer.mscx> byte offset 1953: trackName
+16:23:37.329 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 1
+[       OK ] Engraving_InstrumentChangeTests.testMixer (71 ms)
+[ RUN      ] Engraving_InstrumentChangeTests.testCopy
+16:23:37.372 | DEBUG | main_thread     | XmlReader::unknown | tag in <copy.mscx> byte offset 887: trackName
+16:23:37.373 | DEBUG | main_thread     | XmlReader::unknown | tag in <copy.mscx> byte offset 1953: trackName
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | DEBUG | main_thread     | Score::getProperty | Score::getProperty: unhandled id
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.401 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.407 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.407 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.408 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.408 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.410 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.410 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.411 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.411 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.413 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.413 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.414 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:37.414 | WARN  | main_thread     | Score::undo     | called outside of transaction
+[       OK ] Engraving_InstrumentChangeTests.testCopy (77 ms)
+[ RUN      ] Engraving_InstrumentChangeTests.linkedPrecedingKeyChange
+16:23:37.472 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.472 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.473 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.473 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.473 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.473 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.473 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.473 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.473 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.474 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.474 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.474 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.474 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.474 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.474 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.474 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.474 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.474 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.475 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.501 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.501 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.501 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.501 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.502 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.502 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.503 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.504 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.572 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 4
+16:23:37.731 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.731 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.732 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.732 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.732 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.732 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.732 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.732 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.732 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.732 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.732 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.733 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.733 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.733 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.733 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.733 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.733 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.733 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.733 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.733 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.734 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.761 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.761 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.761 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.761 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.762 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.762 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.762 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.762 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.763 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.763 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.763 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.763 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.763 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.763 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.763 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.763 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.763 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.764 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.764 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.764 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.764 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.764 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.764 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.764 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.764 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.764 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.765 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.765 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.765 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.765 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.765 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.765 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.841 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.841 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.842 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.842 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.842 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.842 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.842 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.842 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.842 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.842 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.842 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.843 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.843 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.843 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.843 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.843 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.843 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.843 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.843 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.844 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.845 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.845 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.872 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.873 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.873 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.873 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.874 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.875 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.876 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.876 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.876 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.876 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.876 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.876 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.876 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:37.876 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:37.941 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 4
+16:23:38.083 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.083 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.084 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.084 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.084 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.084 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.084 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.084 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.085 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.086 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.112 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.113 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.113 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.113 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.113 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.113 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.113 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.113 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.114 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.115 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.115 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.115 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.115 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.115 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.115 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.115 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.115 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+[       OK ] Engraving_InstrumentChangeTests.linkedPrecedingKeyChange (716 ms)
+[ RUN      ] Engraving_InstrumentChangeTests.linkedPrecedingKeyDeletion
+16:23:38.188 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.189 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.189 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.189 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.190 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.190 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.190 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.190 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.190 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.190 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.190 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.190 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.190 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.191 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.192 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.192 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.192 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.192 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.192 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.192 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.192 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.192 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.218 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.218 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.219 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.219 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.220 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.220 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.220 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.220 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.220 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.220 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.221 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.221 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.221 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.221 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.221 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.221 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.221 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.221 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.221 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.222 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.222 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.222 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.222 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.222 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.222 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.222 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.222 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.223 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.223 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.223 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.223 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.223 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.293 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 6
+16:23:38.446 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.446 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.447 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.447 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.447 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.447 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.447 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.447 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.448 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.448 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.448 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.448 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.448 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.448 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.448 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.448 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.449 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.450 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.450 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.450 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.450 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.450 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.450 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.477 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.477 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.477 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.478 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.478 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.478 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.479 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.480 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.550 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.551 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.551 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.551 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.551 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.551 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.551 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.552 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.553 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.554 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.581 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.581 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.581 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.581 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.581 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.581 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.582 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.583 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.649 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 6
+16:23:38.799 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.799 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.800 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.800 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.800 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.800 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.801 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.802 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.803 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.803 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.829 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.829 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.829 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.829 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.830 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.831 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: linkedTo
+[       OK ] Engraving_InstrumentChangeTests.linkedPrecedingKeyDeletion (714 ms)
+[----------] 7 tests from Engraving_InstrumentChangeTests (1834 ms total)
+
+[----------] 5 tests from Engraving_KeySigTests
+[ RUN      ] Engraving_KeySigTests.keysig
+16:23:38.881 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.882 | ERROR | main_thread     | findTypeByXmlTag | not found type for tag: eid
+16:23:38.904 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 8
+16:23:38.918 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 10
+16:23:38.932 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 5
+[       OK ] Engraving_KeySigTests.keysig (107 ms)
+[ RUN      ] Engraving_KeySigTests.keysig_78216
+16:23:38.988 | DEBUG | main_thread     | XmlReader::unknown | tag in <keysig_78216.mscx> byte offset 934: trackName
+[       OK ] Engraving_KeySigTests.keysig_78216 (15 ms)
+[ RUN      ] Engraving_KeySigTests.concertPitch
+16:23:39.003 | DEBUG | main_thread     | XmlReader::unknown | tag in <concert-pitch.mscx> byte offset 870: trackName
+16:23:39.004 | DEBUG | main_thread     | XmlReader::unknown | tag in <concert-pitch.mscx> byte offset 2649: trackName
+16:23:39.020 | WARN  | main_thread     | Score::undo     | called outside of transaction
+16:23:39.029 | WARN  | main_thread     | Score::undo     | called outside of transaction
+[       OK ] Engraving_KeySigTests.concertPitch (41 ms)
+[ RUN      ] Engraving_KeySigTests.preferSharpFlat
+16:23:39.045 | DEBUG | main_thread     | XmlReader::unknown | tag in <preferSharpFlat-1.mscx> byte offset 1305: trackName
+16:23:39.051 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 1
+16:23:39.061 | DEBUG | main_thread     | XmlReader::unknown | tag in <preferSharpFlat-2.mscx> byte offset 1192: trackName
+16:23:39.067 | DEBUG | main_thread     | TransactionManager::endTransaction | Undo stack current transaction commands count: 2
+[       OK ] Engraving_KeySigTests.preferSharpFlat (31 ms)
+[ RUN      ] Engraving_KeySigTests.keysigMode
+16:23:39.079 | DEBUG | main_thread     | XmlReader::unknown | tag in <keysigMode.mscx> byte offset 1181: trackName
+[       OK ] Engraving_KeySigTests.keysigMode (146 ms)
+[----------] 5 tests from Engraving_KeySigTests (342 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 2 test suites ran. (2176 ms total)
+[  PASSED  ] 12 tests.
+16:23:39.220 | INFO  | main_thread     | Profiler        | 
+
+Main thread. Top 150 by sum time (total count: 43)
+Function                                                    Call time         Call count        Sum time          
+Score::doLayoutRange                                        19.549 ms         55                1075.198 ms       
+ScoreLayout::layoutRange                                    19.518 ms         55                1073.476 ms       
+ScorePageViewLayout::layoutPageView                         19.513 ms         55                1073.196 ms       
+SystemLayout::collectSystem                                 4.996 ms          200               999.184 ms        
+PageLayout::collectPage                                     16.809 ms         55                924.493 ms        
+Score::doLayout                                             20.481 ms         32                655.397 ms        
+MscLoader::loadMscz                                         31.663 ms         19                601.604 ms        
+MasterScore::update                                         16.810 ms         25                420.251 ms        
+MStyle::read                                                10.179 ms         36                366.436 ms        
+MscSaver::writeMscz                                         72.626 ms         4                 290.502 ms        
+HorizontalSpacing::updateSpacingForLastAddedMeasure         0.275 ms          842               231.670 ms        
+Writer::writeScore                                          8.568 ms          20                171.369 ms        
+Writer::write                                               8.168 ms          20                163.363 ms        
+HorizontalSpacing::computeSpacingForFullSystem              1.029 ms          106               109.072 ms        
+SystemLayout::layoutSystemElements                          0.842 ms          108               90.949 ms         
+TextLayout::layoutBaseTextBase1                             0.181 ms          450               81.326 ms         
+ChordLayout::layoutChords1                                  0.059 ms          1358              79.751 ms         
+BeamLayout::createBeams                                     0.093 ms          449               41.823 ms         
+ChordLayout::layoutStem                                     0.017 ms          2296              39.662 ms         
+SystemLayout::layout2                                       0.125 ms          146               18.300 ms         
+XmlStreamReader::setData                                    0.222 ms          80                17.790 ms         
+ScoreComp::compareFiles                                     0.214 ms          16                3.418 ms          
+CompatUtils::doCompatibilityConversions                     0.171 ms          19                3.254 ms          
+SystemLayout::minDistance                                   0.015 ms          185               2.715 ms          
+MeasureLayout::getNextMeasure                               0.004 ms          545               2.305 ms          
+MaskLayout::computeMasks                                    0.041 ms          55                2.249 ms          
+SystemLayout::restoreLayout2                                0.012 ms          148               1.823 ms          
+MaskLayout::collectAllSystemText                            0.011 ms          148               1.657 ms          
+PageLayout::layoutPage                                      0.028 ms          55                1.537 ms          
+Score::updateTicksAndTimeSigMap                             0.028 ms          27                0.743 ms          
+RepeatList::unwind                                          0.032 ms          19                0.616 ms          
+engraving::markInstrumentsAsPrimary                         0.011 ms          41                0.466 ms          
+SpannerMap::update                                          0.014 ms          27                0.371 ms          
+Score::sanityCheckLocal                                     0.020 ms          16                0.314 ms          
+Excerpt::updateTracksMapping                                0.023 ms          8                 0.183 ms          
+AutomationRW::read                                          0.008 ms          19                0.150 ms          
+CompatUtils::replaceStaffTextWithPlayTechniqueAnnotation    0.011 ms          9                 0.098 ms          
+AutomationRW::write                                         0.014 ms          4                 0.055 ms          
+AutomationData::setCurves                                   0.005 ms          8                 0.041 ms          
+Score::cmdSelectAll                                         0.036 ms          1                 0.036 ms          
+CompatUtils::replaceStaffTextWithCapo                       0.002 ms          10                0.020 ms          
+CompatUtils::addMissingInitKeyForTransposingInstrument      0.001 ms          10                0.015 ms          
+CompatUtils::assignInitialPartToExcerpts                    0.001 ms          9                 0.013 ms          
+
+
+Other threads. Top 150 by sum time (total count: 3)
+Function                                                    Call time         Call count        Sum time          
+Writer::writeScore                                          9.753 ms          4                 39.013 ms         
+Writer::write                                               9.580 ms          4                 38.318 ms         
+Excerpt::updateTracksMapping                                0.014 ms          4                 0.056 ms          
+
+
+
